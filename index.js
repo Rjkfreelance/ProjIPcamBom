@@ -51,7 +51,7 @@ res.send(`
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jsmpeg/0.2/jsmpg.min.js'></script>
   <script>
   var canvas1 = document.getElementById('videoCanvas1');
-   var ws1 = new WebSocket("wss://localhost:9998")
+   var ws1 = new WebSocket("wss://rjk1test.herokuapp.com:9998")
      
         var player1 = new jsmpeg(ws1, {canvas:canvas1, autoplay:true,audio:false,loop: true});
         var canvas1 = document.getElementById('videoCanvas1');
@@ -79,7 +79,7 @@ res.send(`
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jsmpeg/0.2/jsmpg.min.js'></script>
   <script>
   var canvas1 = document.getElementById('videoCanvas1');
-   var ws2 = new WebSocket("wss://localhost:9999")
+   var ws2 = new WebSocket("wss://rjk1test.herokuapp.com:9999")
      
         var player1 = new jsmpeg(ws2, {canvas:canvas1, autoplay:true,audio:false,loop: true});
        var canvas1 = document.getElementById('videoCanvas1');
