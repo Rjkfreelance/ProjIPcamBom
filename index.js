@@ -6,8 +6,8 @@ Stream = require('node-rtsp-stream');
  // streamUrl: 'rtsp://username:password@ip_address:port/cam/realmonitor?channel=1&subtype=0',
   //streamUrl:'rtsp://78.159.192.163/live/ch00_0',
    //streamUrl:'rtsp://195.46.114.132/live/ch00_0',
-  streamUrl:'rtsp://116.197.222.158/live/ch00_0',
-  //streamUrl:'rtsp://tester:AsDfJkL-1234@clawcam.thddns.net:9772/cam/realmonitor?channel=1&subtype=0',
+  //streamUrl:'rtsp://116.197.222.158/live/ch00_0',
+  streamUrl:'rtsp://tester:AsDfJkL-1234@clawcam.thddns.net:9771/cam/realmonitor?channel=1&subtype=0',
   wsPort: 9998,
   ffmpegOptions: { // options ffmpeg flags
     '-r': 25,// options with required values specify the value after the key
